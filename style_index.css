@@ -1,0 +1,152 @@
+@media (min-width: 600px) {
+
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  #cont_href {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #cont_href a {
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font: 13px;
+    color: rgba(0, 0, 0, .87);
+  }
+
+  #cont_href a:hover {
+    text-decoration: underline;
+  }
+
+  #container_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 15px;
+  }
+
+  #form_input_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid #9C9C9C;
+    box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-color: #4285F4;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  #lupa_google {
+    height: 17px;
+    width: 17px;
+    padding-right: 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+
+  }
+
+  #input_text_from {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 16px;
+    padding-left: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    width: 80%;
+  }
+}
+
+@media (max-width: 599px) {
+
+  body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #202124;
+  }
+
+  #cont_href {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 3px;
+    margin: 3px;
+  }
+
+  a {
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 10px;
+    color: rgba(0, 0, 0, .87);
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  #container_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+  }
+
+  #form_input_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid #9C9C9C;
+    box-shadow: rgb(150, 150, 150) 5px 5px 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-color: #4285F4;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 20px;
+  }
+
+  #lupa_google {
+    height: 9px;
+    width: 9px;
+    padding-right: 3px;
+    margin-left: 5px;
+    margin-right: 2px;
+    margin-top: 2px;
+  }
+
+  #input_text_from {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 12px;
+    padding-left: 2px;
+    margin-left: 5px;
+    margin-top: 3px;
+    border: none;
+    outline: none;
+    width: 80%;
+  }
+}
